@@ -1,0 +1,38 @@
+body {
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+p {
+  font-weight: 300;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 325px;
+}
+
+button {
+  margin-left: 16px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+input {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  width: 200px;
+}
+
+#income {
+  text-align: center;
+}
