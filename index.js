@@ -28,10 +28,10 @@ document.getElementById(`search`).addEventListener(`submit`, (e) => {
         costPer = 0;
         break;
       case (foundIncome.income > 40000 && foundIncome.income < 50000):
-        costPer = 2;
+        costPer = 1;
         break;
       case (foundIncome.income > 50000 && foundIncome.income < 70000):
-        costPer = 4;
+        costPer = 2;
         break;
       case (foundIncome.income > 70000 && foundIncome.income < 90000):
         costPer = 6;
